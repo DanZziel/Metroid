@@ -1,0 +1,29 @@
+Application : METROID
+
+Personnage : Samus
+
+
+Contexte : Arène fermée, plusieurs metroid envahissent l'arene.
+Le but du jeu est de tous les aneantir.
+
+Le joueur gagne si tous les metroids sont detruits
+Le joueur perd si la barre de vie tombe a 0
+
+
+Skin joueur : Samus (Version 8 bit)
+Skin ennemi : Metroid (Version 8 bit)
+Arene fermée : A choisir en fonction du theme
+
+
+
+USER STORY (En tant que joueur) :
+- Se connecter à l'arene (identifiant et mot de passe)
+- Faire apparaitre l'interface de controle avec le sprite du joueur
+- S'orienter sur l'arene (Haut, Bas, Gauche, Droite
+- Tirer (En Haut, En Bas, A Gauche, A Droite)
+
+
+
+
+
+
