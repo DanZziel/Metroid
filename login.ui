@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>385</width>
-    <height>289</height>
+    <width>667</width>
+    <height>642</height>
    </rect>
   </property>
   <property name="palette">
@@ -171,125 +171,317 @@
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_2">
     <item>
-     <layout class="QVBoxLayout" name="verticalLayout">
-      <item>
-       <spacer name="verticalSpacer_2">
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Tab 1</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Preferred</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>30</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QLabel" name="label">
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Identifiant</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QLineEdit" name="lineEdit_2">
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QLabel" name="label_2">
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Mot de Passe</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QLineEdit" name="lineEdit_3">
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="echoMode">
+             <enum>QLineEdit::Password</enum>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QLabel" name="label_3">
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>Arène</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QLineEdit" name="lineEdit">
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>16777215</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Preferred</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>30</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QPushButton" name="pushButton">
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>200</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>CONNEXION</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Tab 2</string>
+       </attribute>
+       <widget class="QGraphicsView" name="graphicsView">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>450</y>
+          <width>651</width>
+          <height>101</height>
+         </rect>
         </property>
-        <property name="sizeType">
-         <enum>QSizePolicy::Preferred</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>20</width>
-          <height>30</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item alignment="Qt::AlignHCenter">
-       <widget class="QLabel" name="label">
-        <property name="maximumSize">
-         <size>
-          <width>100</width>
-          <height>100</height>
-         </size>
-        </property>
-        <property name="text">
-         <string>Identifiant</string>
+        <property name="palette">
+         <palette>
+          <active>
+           <colorrole role="Base">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>170</red>
+              <green>170</green>
+              <blue>127</blue>
+             </color>
+            </brush>
+           </colorrole>
+          </active>
+          <inactive>
+           <colorrole role="Base">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>170</red>
+              <green>170</green>
+              <blue>127</blue>
+             </color>
+            </brush>
+           </colorrole>
+          </inactive>
+          <disabled>
+           <colorrole role="Base">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </colorrole>
+          </disabled>
+         </palette>
         </property>
        </widget>
-      </item>
-      <item alignment="Qt::AlignHCenter">
-       <widget class="QLineEdit" name="lineEdit_2">
-        <property name="maximumSize">
-         <size>
-          <width>200</width>
-          <height>16777215</height>
-         </size>
+       <widget class="QPushButton" name="gauche">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>490</y>
+          <width>51</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Gauche</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="droite">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>490</y>
+          <width>51</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Droite</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="haut">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>460</y>
+          <width>51</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Haut</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="bas">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>520</y>
+          <width>51</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Bas</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="tirer">
+        <property name="geometry">
+         <rect>
+          <x>540</x>
+          <y>480</y>
+          <width>71</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Tirer</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>AGENT</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="samusagent">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>10</y>
+          <width>561</width>
+          <height>431</height>
+         </rect>
         </property>
         <property name="text">
          <string/>
         </property>
        </widget>
-      </item>
-      <item alignment="Qt::AlignHCenter">
-       <widget class="QLabel" name="label_2">
-        <property name="maximumSize">
-         <size>
-          <width>100</width>
-          <height>100</height>
-         </size>
+       <widget class="QProgressBar" name="lifebar">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>31</width>
+          <height>401</height>
+         </rect>
         </property>
-        <property name="text">
-         <string>Mot de Passe</string>
+        <property name="value">
+         <number>100</number>
         </property>
-       </widget>
-      </item>
-      <item alignment="Qt::AlignHCenter">
-       <widget class="QLineEdit" name="lineEdit_3">
-        <property name="maximumSize">
-         <size>
-          <width>200</width>
-          <height>16777215</height>
-         </size>
-        </property>
-       </widget>
-      </item>
-      <item alignment="Qt::AlignHCenter">
-       <widget class="QLabel" name="label_3">
-        <property name="maximumSize">
-         <size>
-          <width>100</width>
-          <height>100</height>
-         </size>
-        </property>
-        <property name="text">
-         <string>Arène</string>
-        </property>
-       </widget>
-      </item>
-      <item alignment="Qt::AlignHCenter">
-       <widget class="QLineEdit" name="lineEdit">
-        <property name="maximumSize">
-         <size>
-          <width>200</width>
-          <height>16777215</height>
-         </size>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <spacer name="verticalSpacer">
         <property name="orientation">
          <enum>Qt::Vertical</enum>
         </property>
-        <property name="sizeType">
-         <enum>QSizePolicy::Preferred</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>20</width>
-          <height>30</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item alignment="Qt::AlignHCenter">
-       <widget class="QPushButton" name="pushButton">
-        <property name="maximumSize">
-         <size>
-          <width>200</width>
-          <height>200</height>
-         </size>
+       </widget>
+       <widget class="QCheckBox" name="automode">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>490</y>
+          <width>67</width>
+          <height>18</height>
+         </rect>
         </property>
         <property name="text">
-         <string>CONNEXION</string>
+         <string>Auto</string>
         </property>
        </widget>
-      </item>
-     </layout>
+      </widget>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -298,7 +490,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>385</width>
+     <width>667</width>
      <height>22</height>
     </rect>
    </property>
@@ -311,7 +503,7 @@
    <sender>lineEdit</sender>
    <signal>textChanged(QString)</signal>
    <receiver>MainWindow</receiver>
-   <slot>onTextChange()</slot>
+   <slot>onTextChange3()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>190</x>
@@ -327,7 +519,7 @@
    <sender>lineEdit_2</sender>
    <signal>textChanged(QString)</signal>
    <receiver>MainWindow</receiver>
-   <slot>onTextChange2()</slot>
+   <slot>onTextChange()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>190</x>
@@ -343,7 +535,7 @@
    <sender>lineEdit_3</sender>
    <signal>textChanged(QString)</signal>
    <receiver>MainWindow</receiver>
-   <slot>onTextChange3()</slot>
+   <slot>onTextChange2()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>190</x>
@@ -371,11 +563,115 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>haut</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>moveUp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>96</x>
+     <y>314</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>253</x>
+     <y>217</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>bas</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>moveDown()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>96</x>
+     <y>374</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>253</x>
+     <y>217</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>gauche</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>moveLeft()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>46</x>
+     <y>344</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>253</x>
+     <y>217</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>droite</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>moveRight()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>146</x>
+     <y>344</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>253</x>
+     <y>217</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tirer</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>shootButton()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>426</x>
+     <y>343</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>253</x>
+     <y>217</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>automode</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>onAutomode(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>334</x>
+     <y>551</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>333</x>
+     <y>320</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>onTextChange()</slot>
   <slot>onButtonClick()</slot>
   <slot>onTextChange2()</slot>
   <slot>onTextChange3()</slot>
+  <slot>moveUp()</slot>
+  <slot>moveDown()</slot>
+  <slot>moveLeft()</slot>
+  <slot>moveRight()</slot>
+  <slot>autoChoice()</slot>
+  <slot>manualChoice()</slot>
+  <slot>shootButton()</slot>
+  <slot>onAutomode(bool)</slot>
  </slots>
 </ui>
